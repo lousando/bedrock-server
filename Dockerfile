@@ -31,6 +31,7 @@ RUN mkdir /bedrock-server/config && \
     ln -s /bedrock-server/config/permissions.json /bedrock-server/permissions.json && \
     ln -s /bedrock-server/config/whitelist.json /bedrock-server/whitelist.json
 
+EXPOSE 19132/tcp
 EXPOSE 19132/udp
 
 VOLUME /bedrock-server/worlds /bedrock-server/config
