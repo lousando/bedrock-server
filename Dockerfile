@@ -1,6 +1,5 @@
 FROM ubuntu:18.04
-ARG BDS_Version=1.14.60.5
-
+ARG BDS_Version=1.16.1.02
 ENV VERSION=$BDS_Version
 
 # Install dependencies
